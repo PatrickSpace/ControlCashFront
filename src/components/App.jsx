@@ -1,8 +1,11 @@
 import React from "react";
-
+import LayoutPC from "../containers/LayoutPC";
+import Navbar from "./navigation/Navbar";
 const App = () => {
   return (
-    <h1 class="text-center text-lg shadow bg-sky-600 h-20">Hola crrano</h1>
+    <LayoutPC>
+      <Navbar />
+    </LayoutPC>
   );
 };
 export default App;
